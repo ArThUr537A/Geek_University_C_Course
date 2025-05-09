@@ -4,16 +4,29 @@ This repository contains the source code and exercises developed during my C pro
 
 ## 🧠 Course Content
 
--Decision and Control Structures
--Data Types
--Arrays and Matrices
--Working with Binary Numbers
--Functions
--Pointers
--Input and Output
--Structs
--Recursion
--Compilation Directives
--Dynamic Memory Allocation
--Array Sorting
--Binary Search and Linear Search
+-Decision and Control Structures  
+
+-Data Types  
+
+-Arrays and Matrices  
+
+-Working with Binary Numbers  
+
+-Functions  
+
+-Pointers  
+
+-Input and Output  
+
+-Structs  
+
+-Recursion  
+
+-Compilation Directives  
+
+-Dynamic Memory Allocation  
+
+-Array Sorting  
+
+-Binary Search and Linear Search  
+
