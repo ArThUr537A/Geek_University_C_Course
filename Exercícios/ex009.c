@@ -13,15 +13,15 @@ int main(){
     for(int i = 1; i <= 10; i++){
         printf("Digite um número: ");
         scanf("%d", &num);
-    if(i == 1){
-        maior = menor = num;
-    }else{
-        if(num > maior){
-            maior = num;
-        }
-        if(num < menor){
-            menor = num;
-        }
+        if(i == 1){
+            maior = menor = num;
+        }else{
+            if(num > maior){
+                maior = num;
+            }
+            if(num < menor){
+                menor = num;
+            }
     }
 
         
