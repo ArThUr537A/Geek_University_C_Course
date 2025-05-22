@@ -27,6 +27,7 @@ int main(){
     for(int j = 0; j < 26; j++){
         printf("%d == %c\n", letras[j], letras[j]);
     }
+    
 
     //vetores de inteiros
     //int numeros[10];
