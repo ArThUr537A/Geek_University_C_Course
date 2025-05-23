@@ -17,7 +17,7 @@ int main(){
     setlocale(LC_ALL,"Portuguese_Brazil");
 
     //(a)
-    int A[6];
+    int A[6]; // int A[6] = {1, 0, 5, -2, -5, 7}
     A[0] = 1;
     A[1] = 0;
     A[2] = 5;
