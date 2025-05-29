@@ -1,6 +1,11 @@
+/*
+Por algum motivo eu tenho que importar .c e não o ponto .h
+o ponto .h é inutil para a chamada de funções 
+*/
+
 #include <stdio.h>
 #include <locale.h>
-#include "ajuda.h"
+#include "ajuda.c" 
 
 int main(){
     setlocale(LC_ALL,"Portuguese_Brazil");

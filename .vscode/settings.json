@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "locale.h": "c"
+        "locale.h": "c",
+        "ajuda.h": "h",
+        "ajuda2.h": "h"
     }
 }
