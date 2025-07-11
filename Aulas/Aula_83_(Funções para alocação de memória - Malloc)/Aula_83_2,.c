@@ -10,16 +10,22 @@ int main(){
 
    p = (int*) malloc(qtd * sizeof(int)); // 3 * 4 == 12 byte
 
+   if(p){
 
-   for(int i = 0; i < qtd; i++){
-      printf("Informe o valor para a posição %d do vetor: ", i);
-      scanf("%d", &p[i]); 
-   }
+      for(int i = 0; i < qtd; i++){
+         printf("Informe o valor para a posição %d do vetor: ", i);
+         scanf("%d", &p[i]); 
+      }
    
-   for(int i = 0; i < qtd; i++){
-      printf("No vetor 'numeros[%d]' está o valor: %d \n", i, p[i]); 
-   }
+      for(int i = 0; i < qtd; i++){
+         printf("No vetor 'numeros[%d]' está o valor: %d \n", i, p[i]);
+         qtd = qtd * sizeof(int);
 
+         printf("A variável 'p' ocupa %d bytes em memória.\n", qtd); 
+      }
+      }else{
+         printf("Erro: Memória insuficiente!!!");
+      }
    qtd = qtd * sizeof(int);
 
    printf("A variável 'p' ocupa %d bytes em memória.\n", qtd);
