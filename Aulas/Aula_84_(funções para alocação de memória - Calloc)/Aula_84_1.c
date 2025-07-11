@@ -15,9 +15,9 @@ int main(){
 
    if(p){
 
-      p[0] = 6;
-      p[1] = 12;
-      p[2] = 34;
+      //p[0] = 6;
+      //p[1] = 12;
+      //p[2] = 34;
        
       printf("A variável 'p' ocupa %ld bytes em memória.\n", 3 * sizeof(int));
       printf("Valor de p[0] = %d\n", p[0]);

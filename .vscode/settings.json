@@ -4,6 +4,7 @@
         "locale.h": "c",
         "ajuda.h": "h",
         "ajuda2.h": "h",
-        "functions.h": "c"
+        "functions.h": "c",
+        "stdlib.h": "c"
     }
 }
