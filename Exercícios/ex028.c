@@ -20,7 +20,7 @@ int main( void ){
          scanf("%d", &ponteiro[i]);  
       }
       for(int i = 0; i < 5; i++){
-         printf("O valor na posição %d é %d\n", i+1, sizeof(ponteiro[i]));  
+         printf("O valor na posição %d é %d\n", i+1, ponteiro[i]);  
       }
 
    free(ponteiro);
