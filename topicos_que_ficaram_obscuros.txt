@@ -1,0 +1,5 @@
+Seção 9 (Ponteiros em C)
+Seção 11 (Structs em C)
+Seção 12 (Recursividade em C)
+Seção 15 (Alocação Dinâmica de Memória em C)
+Seção 16 (Estrutura de dados em C)
